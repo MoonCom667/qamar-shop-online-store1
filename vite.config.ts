@@ -5,10 +5,10 @@ import { componentTagger } from "lovable-tagger";
 
 
 // https://vitejs.dev/config/
-base: "/’qamar-shop-online-store/"
 export default defineConfig(({ mode }) => ({
+  base: "/’qamar-shop-online-store/",
   server: {
-    host: "::",
+    host: "0.0.0.0",
     port: 8080,
   },
   plugins: [
